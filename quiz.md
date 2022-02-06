@@ -57,4 +57,8 @@ function Header() {
 
 ReactDOM.render(Header(), document.getElementById("root"))
 ```
-the calling of the function in react should be like this: <Header />
+
+the calling of the function in react should be like this: 
+```
+<Header />
+```
