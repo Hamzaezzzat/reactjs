@@ -23,7 +23,7 @@ function TempCode(){
         </ul>
       </body>
       <footer>
-        <small>© 2011–2022 «Yandex»</small>
+        <small>© 2011–2022 Hamza</small>
       </footer>
     </div>
   )
