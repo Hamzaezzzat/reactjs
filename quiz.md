@@ -1,3 +1,6 @@
+<!-- Quiz 1 -->
+Quiz!
+
 1. Why do we need to `import React from "react"` in our files?
 React is what defines JSX
 
@@ -22,3 +25,36 @@ to tell it HOW to do each step.
 5. What does it mean for something to be "composable"?
 We have small pieces that we can put together to make something
 larger/greater than the individual pieces.
+
+
+<!-- Quiz 2 -->
+Quiz!
+
+1. What is a React component?
+function return react elements
+
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+the name of function should be in pascal case form
+
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <nav>
+                <img src="./react-logo.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
+
+ReactDOM.render(Header(), document.getElementById("root"))
+```
+the calling of the function in react should be like this: <Header />
