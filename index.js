@@ -9,6 +9,13 @@ function TempCode(){
           <a href="#" class="px-3" >Documents</a>
           <a href="#" class="px-3" >Images</a>
         </nav>
+        <nav class="text-primary">
+          <img src="./img/react-logo.png" width="40px"/>
+          <a href="#" class="px-3" >Text</a> 
+          <a href="#" class="px-3" >Sites</a>
+          <a href="#" class="px-3" >Documents</a>
+          <a href="#" class="px-3" >Images</a>
+        </nav>
       </header>
       <hr />
       <body>
