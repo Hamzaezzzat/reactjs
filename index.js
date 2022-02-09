@@ -45,3 +45,17 @@ const page = (
     </ul>
   </div>
 )
+
+const page = (
+  <div> 
+    <img src="./img/react-logo.png" width="40px"/>
+    <h1>Fun facts about React</h1>
+    <ul>
+      <li>React is Not A Framework</li>
+      <li>React development And SEO Go Together</li>
+      <li>Virtual DOM is Faster Than Real DOM</li>
+      <li>React Has a Strong Community</li>
+      <li>React is Not Just a Fad</li>
+    </ul>
+  </div>
+)
