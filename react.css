@@ -24,3 +24,50 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+/* End Navigation */
+
+/* Start Banner area */
+.site-main .site-banner{
+  background: url(../img/banner/home-banner.png);
+  background-position-y: 30%;
+}
+.site-main .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+  content: "";
+  height: 2px;
+  width: 15vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-5px);
+}
+.site-main .site-banner .site-title h1{
+  font-size: 5rem;
+}
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+  font-family: var(--roboto-regular);
+}
+.site-main .site-banner .banner-img > img{
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+/* End Banner area */
+/* Start About area */
+.site-main .about-area{
+  padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2> span{
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  /* letter-spacing:21px; */
+}
+
+.site-main .about-area .about-title .paragraph >p{
+  padding: .4rem 0;
+}
